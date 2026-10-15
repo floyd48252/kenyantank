@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Kenyan tank suppliers</title>
+    <meta name="description" content="Learn more about Kenyan tank suppliers and our water storage solutions in Kitengela." />
+    <style>
+         :root {
+            --bg: #07111f;
+            --card: #0d1b2a;
+            --muted: #8ea3b8;
+            --text: #eaf2ff;
+            --accent: #38bdf8;
+            --border: rgba(255, 255, 255, .10);
+            --shadow: 0 20px 60px rgba(0, 0, 0, .35)
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+        
+        html {
+            scroll-behavior: smooth
+        }
+        
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: radial-gradient(circle at top, #12304e 0%, var(--bg) 40%);
+            color: var(--text);
+            line-height: 1.5
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+        
+        .container {
+            width: min(1120px, 92vw);
+            margin: 0 auto
+        }
+        
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            backdrop-filter: blur(16px);
+            background: rgba(7, 17, 31, .72);
+            border-bottom: 1px solid var(--border)
+        }
+        
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            gap: 16px
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            letter-spacing: .3px
+        }
+        
+        .logo {
+            width: 42px;
+            height: 42px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--accent), #60a5fa);
+            display: grid;
+            place-items: center;
+            object-fit: cover;
+            color: #02111f;
+            font-weight: 900;
+            box-shadow: 0 12px 30px rgba(56, 189, 248, .35)
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            color: var(--muted);
+            font-size: .95rem
+        }
+        
+        .nav-links a:hover {
+            color: var(--text)
+        }
+        
+        section {
+            padding: 72px 0 100px
+        }
+        
+        .eyebrow {
+            display: inline-flex;
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, .04);
+            color: #cde7ff;
+            font-size: .9rem
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin: 16px 0 10px
+        }
+        
+        .section-sub {
+            color: var(--muted);
+            margin: 0 0 24px;
+            max-width: 70ch
+        }
+        
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            padding: 22px
+        }
+        
+        .price-card {
+            display: flex;
+            flex-direction: column;
+            gap: 10px
+        }
+        
+        .price-card .litres {
+            font-size: 1.1rem;
+            color: #d9ecff
+        }
+        
+        .price-card .note {
+            color: var(--muted);
+            font-size: .95rem
+        }
+        
+        .footer {
+            padding: 26px 0 40px;
+            color: var(--muted);
+            border-top: 1px solid var(--border)
+        }
+        
+        @media (max-width: 900px) {
+            .cards {
+                grid-template-columns: 1fr
+            }
+            .nav-inner {
+                flex-direction: column;
+                align-items: flex-start
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                width: min(100% - 28px, 1120px)
+            }
+            section {
+                padding: 52px 0 72px
+            }
+            .nav-links {
+                gap: 12px;
+                font-size: .9rem
+            }
+            .footer .container {
+                overflow-wrap: anywhere
+            }
+        }
+        :root {
+            --bg: #071522;
+            --card: #10263b;
+            --muted: #a8bfd2;
+            --text: #eff8ff;
+            --accent: #22d3ee;
+            --border: rgba(103, 232, 249, .2);
+            --shadow: 0 20px 60px rgba(0, 0, 0, .32)
+        }
+        body {
+            background:
+                radial-gradient(ellipse at 12% 4%, rgba(14, 165, 233, .24), transparent 36%),
+                radial-gradient(ellipse at 88% 30%, rgba(139, 92, 246, .14), transparent 34%),
+                var(--bg)
+        }
+        .nav {
+            background: rgba(7, 21, 34, .84)
+        }
+        .nav-links a:hover {
+            color: var(--accent)
+        }
+        .eyebrow {
+            background: rgba(34, 211, 238, .12);
+            border-color: rgba(34, 211, 238, .38);
+            color: #baf7ff
+        }
+        .card {
+            background: linear-gradient(145deg, rgba(14, 165, 233, .1), rgba(255, 255, 255, .035) 58%, rgba(139, 92, 246, .08));
+            border-color: rgba(103, 232, 249, .2);
+            transition: .25s transform, .25s border-color, .25s box-shadow
+        }
+        .card:hover {
+            border-color: rgba(34, 211, 238, .48);
+            box-shadow: 0 14px 34px rgba(14, 165, 233, .12);
+            transform: translateY(-3px)
+        }
+        .price-card .litres {
+            color: #8cecff
+        }
+        .footer {
+            border-top-color: rgba(103, 232, 249, .2)
+        }
+        </style>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html">
+                <img class="logo" src="tank (6).jpeg" alt="Kenyan tank suppliers logo" />
+                <div>Kenyan tank suppliers</div>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html#prices">Prices</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="eyebrow">About Kenyan tank suppliers</div>
+                <h1 class="section-title">Reliable water storage for every project</h1>
+                <p class="section-sub">Kenyan tank suppliers offer strong, dependable water storage tanks for homes, farms, businesses, schools, and construction projects across Kitengela and beyond. Our tanks are made for everyday reliability, helping families and organizations keep a
+                    steady water reserve when they need it most.</p>
+                <p class="section-sub">From choosing the right capacity to arranging delivery, we make the buying process straightforward. Our team provides clear prices, practical guidance, and direct support through phone and WhatsApp so you can order with confidence.</p>
+                <div class="cards">
+                    <div class="card price-card">
+                        <div class="litres">Trusted brand presence</div>
+                        <div class="note">A polished homepage helps customers see your business as real and dependable.</div>
+                    </div>
+                    <div class="card price-card">
+                        <div class="litres">Clear pricing</div>
+                        <div class="note">Customers can compare tank sizes quickly without calling first.</div>
+                    </div>
+                    <div class="card price-card">
+                        <div class="litres">Easy contact</div>
+                        <div class="note">One-tap calling and WhatsApp buttons improve leads.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>© 2026 Kenyan tank suppliers. All rights reserved.</div>
+            <a href="mailto:James.thompson.au6371@gmail.com">James.thompson.au6371@gmail.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>

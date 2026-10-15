@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Kenyan tank suppliers</title>
+    <meta name="description" content="Contact Kenyan tank suppliers by phone, WhatsApp, or email in Kitengela." />
+    <style>
+         :root {
+            --bg: #07111f;
+            --muted: #8ea3b8;
+            --text: #eaf2ff;
+            --accent: #38bdf8;
+            --border: rgba(255, 255, 255, .10)
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+        
+        body {
+            margin: 0;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: radial-gradient(circle at top, #12304e 0%, var(--bg) 40%);
+            color: var(--text);
+            line-height: 1.5
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+        
+        .container {
+            width: min(1120px, 92vw);
+            margin: 0 auto
+        }
+        
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            backdrop-filter: blur(16px);
+            background: rgba(7, 17, 31, .72);
+            border-bottom: 1px solid var(--border)
+        }
+        
+        .nav-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+            gap: 16px
+        }
+        
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 800;
+            letter-spacing: .3px
+        }
+        
+        .logo {
+            width: 42px;
+            height: 42px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--accent), #60a5fa);
+            display: grid;
+            place-items: center;
+            object-fit: cover;
+            color: #02111f;
+            font-weight: 900;
+            box-shadow: 0 12px 30px rgba(56, 189, 248, .35)
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            color: var(--muted);
+            font-size: .95rem
+        }
+        
+        .nav-links a:hover {
+            color: var(--text)
+        }
+        
+        section {
+            padding: 72px 0 100px
+        }
+        
+        .eyebrow {
+            display: inline-flex;
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, .04);
+            color: #cde7ff;
+            font-size: .9rem
+        }
+        
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin: 16px 0 10px
+        }
+        
+        .section-sub {
+            color: var(--muted);
+            margin: 0 0 24px;
+            max-width: 70ch
+        }
+        
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px
+        }
+        
+        .contact-box {
+            padding: 22px;
+            border-radius: 22px;
+            background: linear-gradient(180deg, rgba(56, 189, 248, .12), rgba(255, 255, 255, .04));
+            border: 1px solid var(--border)
+        }
+        
+        .contact-box a {
+            color: #d9ecff
+        }
+        
+        .map-section {
+            display: grid;
+            gap: 12px;
+            margin-top: 28px
+        }
+        
+        .map-section h2 {
+            margin: 0
+        }
+        
+        .map-frame {
+            width: 100%;
+            height: 360px;
+            border: 1px solid var(--border);
+            border-radius: 22px;
+            display: block
+        }
+        
+        .inquiry-form {
+            display: grid;
+            gap: 16px;
+            margin-top: 28px;
+            padding: 24px;
+            border-radius: 22px;
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid var(--border)
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px
+        }
+        
+        .form-field {
+            display: grid;
+            gap: 7px
+        }
+        
+        .form-field label {
+            color: #d9ecff;
+            font-weight: 700
+        }
+        
+        .form-field input,
+        .form-field textarea {
+            width: 100%;
+            padding: 13px 14px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: rgba(7, 17, 31, .7);
+            color: var(--text);
+            font: inherit
+        }
+        
+        .form-field textarea {
+            min-height: 140px;
+            resize: vertical
+        }
+        
+        .form-field input:focus,
+        .form-field textarea:focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px
+        }
+        
+        .form-submit {
+            justify-self: start;
+            padding: 13px 18px;
+            border: 0;
+            border-radius: 12px;
+            background: #22c55e;
+            color: #03140a;
+            cursor: pointer;
+            font: inherit;
+            font-weight: 800
+        }
+        
+        .form-submit:hover {
+            opacity: .9
+        }
+        
+        .footer {
+            padding: 26px 0 40px;
+            color: var(--muted);
+            border-top: 1px solid var(--border)
+        }
+        
+        @media (max-width: 900px) {
+            .contact {
+                grid-template-columns: 1fr
+            }
+            .nav-inner {
+                flex-direction: column;
+                align-items: flex-start
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                width: min(100% - 28px, 1120px)
+            }
+            section {
+                padding: 52px 0 72px
+            }
+            .form-row {
+                grid-template-columns: 1fr
+            }
+            .inquiry-form {
+                padding: 18px
+            }
+            .map-frame {
+                height: 280px
+            }
+            .nav-links {
+                gap: 12px;
+                font-size: .9rem
+            }
+            .footer .container {
+                overflow-wrap: anywhere
+            }
+        }
+            :root {
+                --bg: #071522;
+                --muted: #a8bfd2;
+                --text: #eff8ff;
+                --accent: #22d3ee;
+                --border: rgba(103, 232, 249, .2)
+            }
+            body {
+                background:
+                    radial-gradient(ellipse at 12% 4%, rgba(14, 165, 233, .24), transparent 36%),
+                    radial-gradient(ellipse at 88% 30%, rgba(139, 92, 246, .14), transparent 34%),
+                    var(--bg)
+            }
+            .nav {
+                background: rgba(7, 21, 34, .84)
+            }
+            .nav-links a:hover {
+                color: var(--accent)
+            }
+            .eyebrow {
+                background: rgba(34, 211, 238, .12);
+                border-color: rgba(34, 211, 238, .38);
+                color: #baf7ff
+            }
+            .contact-box {
+                background: linear-gradient(135deg, rgba(34, 211, 238, .16), rgba(59, 130, 246, .08) 55%, rgba(139, 92, 246, .12));
+                border-color: rgba(103, 232, 249, .24)
+            }
+            .contact-box a {
+                color: #9decff
+            }
+            .inquiry-form {
+                background: linear-gradient(145deg, rgba(14, 165, 233, .1), rgba(255, 255, 255, .035) 58%, rgba(139, 92, 246, .08));
+                border-color: rgba(103, 232, 249, .2)
+            }
+            .form-field input,
+            .form-field textarea {
+                border-color: rgba(103, 232, 249, .24)
+            }
+            .form-submit {
+                background: linear-gradient(135deg, #34d399, #22d3ee);
+                color: #06211e
+            }
+            .map-frame {
+                border-color: rgba(103, 232, 249, .3);
+                box-shadow: 0 14px 34px rgba(14, 165, 233, .12)
+            }
+            .footer {
+                border-top-color: rgba(103, 232, 249, .2)
+            }
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a class="brand" href="index.html">
+                <img class="logo" src="tank (6).jpeg" alt="Kenyan tank suppliers logo" />
+                <div>Kenyan tank suppliers</div>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html#prices">Prices</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="eyebrow">Get in touch</div>
+                <h1 class="section-title">Contact Kenyan tank suppliers</h1>
+                <p class="section-sub">Reach us directly for tank availability, delivery details, or a custom quote.</p>
+                <div class="contact">
+                    <div class="contact-box">
+                        <h2>Call or WhatsApp</h2>
+                        <p><a href="tel:+254104040033">0104040033</a></p>
+                        <p><a href="https://wa.me/254104040033" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+                    </div>
+                    <div class="contact-box">
+                        <h2>Email & Location</h2>
+                        <p><a href="mailto:James.thompson.au6371@gmail.com">James.thompson.au6371@gmail.com</a></p>
+                        <p>Kitengela, Kajiado</p>
+                    </div>
+                </div>
+                <form class="inquiry-form" id="inquiry-form">
+                    <h2>Send an inquiry</h2>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Your name</label>
+                            <input id="name" name="name" type="text" autocomplete="name" required />
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone number</label>
+                            <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Your inquiry</label>
+                        <textarea id="message" name="message" placeholder="Tell us which tank size you need or ask us a question." required></textarea>
+                    </div>
+                    <button class="form-submit" type="submit">Send via WhatsApp</button>
+                </form>
+                <div class="map-section">
+                    <h2>Find us</h2>
+                    <iframe class="map-frame" title="Map showing Kenyan tank suppliers in Kitengela, Kajiado" src="https://www.google.com/maps?q=Kitengela%2C%20Kenya&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>© 2026 Kenyan tank suppliers. All rights reserved.</div>
+            <a href="mailto:James.thompson.au6371@gmail.com">James.thompson.au6371@gmail.com</a>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('inquiry-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const form = event.currentTarget;
+            const name = form.elements.name.value.trim();
+            const phone = form.elements.phone.value.trim();
+            const message = form.elements.message.value.trim();
+            const inquiry = `Hello, my name is ${name}. My phone number is ${phone}. ${message}`;
+            window.open(`https://wa.me/254104040033?text=${encodeURIComponent(inquiry)}`, '_blank', 'noopener');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kenyan tank suppliers - Price List</title>
+    <meta name="description" content="Kenyan tank suppliers price list and contact details in Kitengela." />
+    <style>
+     :root {
+            --bg: #07111f;
+            --card: #0d1b2a;
+            --muted: #8ea3b8;
+            --text: #eaf2ff;
+            --accent: #38bdf8;
+            --accent2: #22c55e;
+            --border: rgba(255, 255, 255, .10);
+            --shadow: 0 20px 60px rgba(0, 0, 0, .35)
+        }
+        
+        * {
+            box-sizing: border-box
+        }
+    }
+    html {
+        scroll-behavior: smooth
+    }
+    body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+        background: radial-gradient(circle at top, #12304e 0%, var(--bg) 40%);
+        color: var(--text);
+        line-height: 1.5
+    }
+    a {
+        color: inherit;
+        text-decoration: none
+    }
+    .container {
+        width: min(1120px, 92vw);
+        margin: 0 auto
+    }
+    .nav {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        backdrop-filter: blur(16px);
+        background: rgba(7, 17, 31, .72);
+        border-bottom: 1px solid var(--border)
+    }
+    .nav-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0;
+        gap: 16px
+    }
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 800;
+        letter-spacing: .3px
+    }
+    .logo {
+        width: 42px;
+        height: 42px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, var(--accent), #60a5fa);
+        display: grid;
+        place-items: center;
+        object-fit: cover;
+        color: #02111f;
+        font-weight: 900;
+        box-shadow: 0 12px 30px rgba(56, 189, 248, .35)
+    }
+    .nav-links {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+        color: var(--muted);
+        font-size: .95rem
+    }
+    .nav-links a:hover {
+        color: var(--text)
+    }
+    .hero {
+        position: relative;
+        min-height: 560px;
+        padding: 96px 0 64px;
+        background: linear-gradient(90deg, rgba(7, 17, 31, .92) 0%, rgba(7, 17, 31, .68) 52%, rgba(7, 17, 31, .48) 100%);
+        border-bottom: 1px solid var(--border);
+        overflow: hidden;
+        isolation: isolate
+    }
+    .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(7, 17, 31, .28), rgba(7, 17, 31, .72));
+        z-index: 1
+    }
+    .hero-gallery {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 8px;
+        opacity: .42;
+        filter: saturate(.9) contrast(1.08)
+    }
+    .hero-gallery span {
+        display: block;
+        background-size: cover;
+        background-position: center;
+        min-height: 180px
+    }
+    .hero-grid {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 1.15fr .85fr;
+        gap: 28px;
+        align-items: center
+    }
+    .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, .04);
+        color: #cde7ff;
+        font-size: .9rem
+    }
+    h1 {
+        font-size: clamp(2.2rem, 5vw, 4.7rem);
+        line-height: 1.05;
+        margin: 16px 0 16px
+    }
+    .lead {
+        font-size: 1.08rem;
+        color: #c6d6e6;
+        max-width: 62ch
+    }
+    .cta-row {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-top: 28px
+    }
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 14px 20px;
+        border-radius: 16px;
+        font-weight: 700;
+        border: 1px solid transparent;
+        transition: .25s transform, .25s opacity, .25s background
+    }
+    .btn:hover {
+        transform: translateY(-2px)
+    }
+    .btn-primary {
+        background: linear-gradient(135deg, var(--accent), #60a5fa);
+        color: #00111f
+    }
+    .btn-secondary {
+        background: rgba(255, 255, 255, .05);
+        border-color: var(--border);
+        color: var(--text)
+    }
+    .hero-card {
+        background: linear-gradient(180deg, rgba(13, 27, 42, .92), rgba(13, 27, 42, .8));
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 24px;
+        box-shadow: var(--shadow)
+    }
+    .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px
+    }
+    .stat {
+        padding: 18px;
+        border-radius: 20px;
+        background: rgba(255, 255, 255, .04);
+        border: 1px solid var(--border)
+    }
+    .stat strong {
+        display: block;
+        font-size: 1.35rem;
+        margin-bottom: 4px
+    }
+    .stat span {
+        color: var(--muted);
+        font-size: .95rem
+    }
+    section {
+        padding: 24px 0 70px
+    }
+    .section-title {
+        font-size: 2rem;
+        margin: 0 0 10px
+    }
+    .section-sub {
+        color: var(--muted);
+        margin: 0 0 24px;
+        max-width: 70ch
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px
+    }
+    .card {
+        background: rgba(255, 255, 255, .04);
+        border: 1px solid var(--border);
+        border-radius: 22px;
+        padding: 22px
+    }
+    .price-card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .price-card .litres {
+        font-size: 1.1rem;
+        color: #d9ecff
+    }
+    .price-card .note {
+        color: var(--muted);
+        font-size: .95rem
+    }
+    .review-stars {
+        color: #facc15;
+        letter-spacing: 2px;
+        font-size: 1.05rem
+    }
+    .review-name {
+        color: #d9ecff;
+        font-weight: 800
+    }
+    .review-name span {
+        color: var(--muted);
+        font-weight: 400
+    }
+    .price-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px
+    }
+    .price-item {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding: 16px;
+        border-radius: 22px;
+        background: rgba(255, 255, 255, .04);
+        border: 1px solid var(--border)
+    }
+    .tank-image {
+        min-height: 180px;
+        display: grid;
+        place-items: center;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, .06);
+        border: 1px dashed rgba(255, 255, 255, .24);
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        color: var(--muted);
+        font-size: .9rem
+    }
+    .tank-image img {
+        display: block;
+        width: 100%;
+        height: 180px;
+        object-fit: cover
+    }
+    .price-item b {
+        font-size: 1.05rem
+    }
+    .price-item span {
+        color: #d6e8fb;
+        font-weight: 800
+    }
+    .order-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 11px 14px;
+        border-radius: 12px;
+        background: var(--accent2);
+        color: #03140a;
+        font-weight: 800;
+        transition: .25s transform, .25s opacity
+    }
+    .order-btn:hover {
+        transform: translateY(-2px);
+        opacity: .9
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px
+    }
+    .contact-box {
+        padding: 22px;
+        border-radius: 22px;
+        background: linear-gradient(180deg, rgba(56, 189, 248, .12), rgba(255, 255, 255, .04));
+        border: 1px solid var(--border)
+    }
+    .footer {
+        padding: 26px 0 40px;
+        color: var(--muted);
+        border-top: 1px solid var(--border)
+    }
+    @media (max-width:900px) {
+        .hero-grid,
+        .cards,
+        .price-grid,
+        .contact {
+            grid-template-columns: 1fr
+        }
+        
+        .nav-inner {
+            flex-direction: column;
+            align-items: flex-start
+        }
+        
+        .hero {
+            padding-top: 46px
+        }
+        .hero-gallery {
+            grid-template-columns: repeat(2, minmax(0, 1fr))
+        }
+    }
+    @media (max-width:600px) {
+        .container {
+            width: min(100% - 28px, 1120px)
+        }
+        
+        .hero {
+            min-height: 0;
+            padding: 64px 0 42px;
+            background-position: 62% center
+        }
+        .hero-gallery {
+            grid-template-columns: 1fr 1fr
+        }
+        
+        .hero-card {
+            padding: 16px
+        }
+        
+        .stats {
+            grid-template-columns: 1fr
+        }
+        
+        .nav-links {
+            gap: 12px;
+            font-size: .9rem
+        }
+        
+        .footer .container {
+            overflow-wrap: anywhere
+        }
+    }
+    :root {
+        --bg: #071522;
+        --card: #10263b;
+        --muted: #a8bfd2;
+        --text: #eff8ff;
+        --accent: #22d3ee;
+        --accent2: #34d399;
+        --border: rgba(103, 232, 249, .2);
+        --shadow: 0 20px 60px rgba(0, 0, 0, .32)
+    }
+    body {
+        background:
+            radial-gradient(ellipse at 12% 4%, rgba(14, 165, 233, .24), transparent 36%),
+            radial-gradient(ellipse at 88% 30%, rgba(139, 92, 246, .14), transparent 34%),
+            var(--bg)
+    }
+    .nav {
+        background: rgba(7, 21, 34, .84)
+    }
+    .nav-links a:hover {
+        color: var(--accent)
+    }
+    .eyebrow {
+        background: rgba(34, 211, 238, .12);
+        border-color: rgba(34, 211, 238, .38);
+        color: #baf7ff
+    }
+    .hero {
+        background: linear-gradient(110deg, rgba(3, 19, 32, .88), rgba(5, 29, 48, .56) 58%, rgba(40, 20, 70, .4))
+    }
+    .hero::before {
+        background: linear-gradient(180deg, rgba(5, 22, 37, .18), rgba(5, 22, 37, .64))
+    }
+    .hero-gallery {
+        opacity: .56;
+        filter: saturate(1.2) contrast(1.08)
+    }
+    .hero-card {
+        background: linear-gradient(145deg, rgba(14, 165, 233, .2), rgba(16, 38, 59, .92) 60%, rgba(124, 58, 237, .12));
+        border-color: rgba(103, 232, 249, .3)
+    }
+    .stat {
+        background: linear-gradient(145deg, rgba(34, 211, 238, .1), rgba(255, 255, 255, .035));
+        border-color: rgba(103, 232, 249, .2)
+    }
+    .btn-primary {
+        background: linear-gradient(135deg, #22d3ee, #3b82f6);
+        box-shadow: 0 10px 28px rgba(34, 211, 238, .22)
+    }
+    .btn-secondary {
+        background: linear-gradient(135deg, rgba(139, 92, 246, .18), rgba(34, 211, 238, .1));
+        border-color: rgba(167, 139, 250, .38)
+    }
+    .card,
+    .price-item {
+        background: linear-gradient(145deg, rgba(14, 165, 233, .09), rgba(255, 255, 255, .035) 58%, rgba(139, 92, 246, .07));
+        border-color: rgba(103, 232, 249, .18)
+    }
+    .price-item:hover,
+    .card:hover {
+        border-color: rgba(34, 211, 238, .48);
+        box-shadow: 0 14px 34px rgba(14, 165, 233, .12);
+        transform: translateY(-3px)
+    }
+    .order-btn {
+        background: linear-gradient(135deg, #34d399, #22d3ee);
+        color: #06211e
+    }
+    .contact-box {
+        background: linear-gradient(135deg, rgba(34, 211, 238, .16), rgba(59, 130, 246, .08) 55%, rgba(139, 92, 246, .12));
+        border-color: rgba(103, 232, 249, .22)
+    }
+    .footer {
+        border-top-color: rgba(103, 232, 249, .2)
+    }
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <div class="brand">
+                <img class="logo" src="tank (6).jpeg" alt="Kenyan tank suppliers logo" />
+                <div>Kenyan tank suppliers</div>
+            </div>
+            <nav class="nav-links">
+                <a href="#prices">Prices</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-gallery" aria-hidden="true">
+                <span style="background-image: url('tank (1).jpeg');"></span>
+                <span style="background-image: url('tank (5).jpeg');"></span>
+                <span style="background-image: url('tank (6).jpeg');"></span>
+                <span style="background-image: url('tank (7).jpeg');"></span>
+                <span style="background-image: url('tank (8).jpeg');"></span>
+                <span style="background-image: url('tank (9).jpeg');"></span>
+                <span style="background-image: url('tank (10).jpeg');"></span>
+                <span style="background-image: url('tank (6).jpeg');"></span>
+                <span style="background-image: url('tank (7).jpeg');"></span>
+                <span style="background-image: url('tank (9).jpeg');"></span>
+                <span style="background-image: url('tank (10).jpeg');"></span>
+                <span style="background-image: url('tank (1).jpeg');"></span>
+            </div>
+            <div class="container hero-grid">
+                <div>
+                    <div class="eyebrow">Premium water storage solutions in Kitengela</div>
+                    <h1>Reliable Water Tanks for Homes, Businesses, and Projects</h1>
+                    <p class="lead">Explore our updated Kenyan tank suppliers price list, request a quote, and reach us directly on WhatsApp or email. Clean design, mobile-friendly layout, and clear calls to action make the business look professional and trustworthy.</p>
+                    <div class="cta-row">
+                        <a class="btn btn-primary" href="tel:+254104040033">Call Now</a>
+                        <a class="btn btn-secondary" href="https://wa.me/254104040033" target="_blank" rel="noopener">WhatsApp Us</a>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="stats">
+                        <div class="stat"><strong>0104040033</strong><span>Call us direct</span></div>
+                        <div class="stat"><strong>Kitengela</strong><span>Main location</span></div>
+                        <div class="stat"><strong>Fast</strong><span>Direct customer support</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="prices">
+            <div class="container">
+                <h2 class="section-title">Price List</h2>
+                <p class="section-sub">All prices are displayed in Kenyan Shillings.</p>
+                <div class="price-grid">
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (1).jpeg');" role="img" aria-label="Ken Tank water tank"></div>
+                        <b>1000 Litres</b>
+                        <span>Ksh. 6,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%201000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (5).jpeg');" role="img" aria-label="Ken Tank water tanks"></div>
+                        <b>2000 Litres</b>
+                        <span>Ksh. 11,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%202000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (6).jpeg');" role="img" aria-label="Ken Tank water tanks outdoors"></div>
+                        <b>3000 Litres</b>
+                        <span>Ksh. 17,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%203000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (7).jpeg');" role="img" aria-label="Ken Tank water tanks in stock"></div>
+                        <b>4000 Litres</b>
+                        <span>Ksh. 23,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%204000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (8).jpeg');" role="img" aria-label="5,000 litre Ken Tank water tank"></div>
+                        <b>5000 Litres</b>
+                        <span>Ksh. 28,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%205000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (9).jpeg');" role="img" aria-label="Ken Tank water tanks ready for delivery"></div>
+                        <b>6000 Litres</b>
+                        <span>Ksh. 33,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%206000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (10).jpeg');" role="img" aria-label="Ken Tank sizes including 8,000 litres"></div>
+                        <b>8000 Litres</b>
+                        <span>Ksh. 46,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%208000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (6).jpeg');" role="img" aria-label="Ken Tank water tanks outdoors"></div>
+                        <b>10000 Litres</b>
+                        <span>Ksh. 62,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%2010000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (9).jpeg');" role="img" aria-label="Ken Tank water tanks ready for delivery"></div>
+                        <b>16000 Litres</b>
+                        <span>Ksh. 96,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%2016000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (7).jpeg');" role="img" aria-label="Ken Tank water tanks in stock"></div>
+                        <b>20000 Litres</b>
+                        <span>Ksh. 126,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%2020000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (10).jpeg');" role="img" aria-label="24,000 litre Ken Tank water tank"></div>
+                        <b>24000 Litres</b>
+                        <span>Ksh. 148,500</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20order%20the%2024000%20litre%20tank." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                    <div class="price-item">
+                        <div class="tank-image" style="background-image: url('tank (1).jpeg');" role="img" aria-label="Ken Tank water tank for custom orders"></div>
+                        <b>Need a custom size?</b>
+                        <span>Request a quote</span>
+                        <a class="order-btn" href="https://wa.me/254104040033?text=Hello%2C%20I%20would%20like%20to%20request%20a%20custom%20tank%20size%20quote." target="_blank" rel="noopener">Order via WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-sub">Feedback from customers who chose Kenyan tank suppliers for dependable water storage.</p>
+                <div class="cards">
+                    <div class="card price-card">
+                        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <div class="note">“The tank is strong and exactly what we needed for our home. Ordering was simple and delivery was well coordinated.”</div>
+                        <div class="review-name">Mary W. <span>Nairobi</span></div>
+                    </div>
+                    <div class="card price-card">
+                        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <div class="note">“They helped us choose the right size for our project and answered all our questions quickly on WhatsApp.”</div>
+                        <div class="review-name">David K. <span>Ruiru</span></div>
+                    </div>
+                    <div class="card price-card">
+                        <div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                        <div class="note">“Clear pricing, good communication, and a quality tank. I would gladly recommend Kenyan tank suppliers.”</div>
+                        <div class="review-name">Sarah N. <span>Kiambu</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>© 2026 Kenyan tank suppliers. All rights reserved.</div>
+            <a href="mailto:James.thompson.au6371@gmail.com">James.thompson.au6371@gmail.com</a>
+        </div>
+    </footer>
+</body>
+
+</html>
